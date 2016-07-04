@@ -1,0 +1,91 @@
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+div.tooltip {
+    position: absolute;
+    width: 300px;
+    min-height: 1%;
+    padding: 5px;
+    font: 12px sans-serif;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    pointer-events: none;
+    background: #ffffff;
+    box-shadow: 1px 1px #eee;
+}
+
+.area {
+    fill: lightsteelblue;
+    fill-opacity: 0.5;
+    clip-path: url(#clip);
+    stroke-width: 1px;
+    stroke: steelblue;
+    stroke-dasharray: 5 5;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: red;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.menu-button {
+    position: absolute;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #f9f9ff;
+    border: 1px solid #e6e6ff;
+    border-bottom: 1px solid #f9f9ff;
+    min-width: 400px;
+    min-height: 50px;
+    height: 50px;
+    z-index: 999;
+}
+.menu-button:focus {
+    outline: none;
+}
+
+.inactive-button {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6ff;
+}
+
+#select_sankey {
+    margin-left: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 15px;
+}
+
+#select_stacked_bar {
+    margin-left: 400px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 15px;
+}
+
+.chart_panel {
+    background-color: #f9f9ff;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border: 1px solid #e6e6ff;
+    top: 49px;
+    padding: 15px;
+}
