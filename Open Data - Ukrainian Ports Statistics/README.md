@@ -7,4 +7,4 @@
  
 
 ## Demo
-http://awo208.activewizards-demos.com
+http://opendata.activewizards-demos.com/
