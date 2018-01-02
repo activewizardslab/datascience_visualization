@@ -1,9 +1,0 @@
-*.pyc
-.env/
-venv/
-bower_components/
-local.py
-media/
-
-# ssh keys
-ssh/
