@@ -7,4 +7,4 @@
  
 
 ## Demo
-http://awo208.app5.activewizards.com
+http://awo208.activewizards-demos.com
